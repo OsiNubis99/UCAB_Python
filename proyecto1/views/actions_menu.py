@@ -1,0 +1,13 @@
+def show_actions_menu():
+    print("=== Menú Acciones ===")
+    print("1. Mostrar lista de participantes (tabla)")
+    print("2. Mostrar cantidad total de participantes (línea)")
+    print("3. Mostrar cantidad de participantes por grupo etario (tabla)")
+    print("4. Mostrar cantidad de participantes por sexo (línea)")
+    print("5. Mostrar ganadores por grupo etario (tabla)")
+    print("6. Mostrar ganadores por sexo (tabla)")
+    print("7. Mostrar ganadores por grupo etario y sexo (tabla)")
+    print("8. Mostrar ganador general")
+    print("9. Mostrar histograma de participantes por grupo etario")
+    print("10. Volver al menú principal")
+    return input("Seleccione una opción: ")
